@@ -14,15 +14,23 @@ Nan Jiang, Daniel U. Becker, George Michelogiannakis, James Balfour, Brian Towle
 
 # Usage Tips
 
-## Step 1: Environment preparation
+## Step 1: environment preparation
 
 ````
 sudo apt-get install texlive-latex-base flex bison
 ````
 
-## Step 2: Get BookSim 2.0 User's Guide
+## Step 2: get BookSim 2.0 User's Guide
 
 ````
 cd doc/
 make all
+````
+
+## Step 3: start simulation
+
+````
+cd src/
+make all
+./booksim examples/mesh88_lat
 ````
