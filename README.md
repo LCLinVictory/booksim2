@@ -12,22 +12,22 @@ If you use BookSim in your research, we would appreciate the following citation 
 Nan Jiang, Daniel U. Becker, George Michelogiannakis, James Balfour, Brian Towles, John Kim and William J. Dally. A Detailed and Flexible Cycle-Accurate Network-on-Chip Simulator. In *Proceedings of the 2013 IEEE International Symposium on Performance Analysis of Systems and Software*, 2013.
 
 
-# Usage Tips
+## Usage Tips
 
-## Step 1: environment preparation
+### Step 1: environment preparation
 
 ````
 sudo apt-get install texlive-latex-base flex bison
 ````
 
-## Step 2: get BookSim 2.0 User's Guide
+### Step 2: get BookSim 2.0 User's Guide
 
 ````
 cd doc/
 make all
 ````
 
-## Step 3: start simulation
+### Step 3: start simulation
 
 ````
 cd src/
